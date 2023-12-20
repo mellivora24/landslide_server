@@ -63,18 +63,18 @@ app.get('/', function (req, res) {
 
 app.post('/home', /*#__PURE__*/function () {
   var _ref2 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2(req, res) {
-    var _req$body, name, kinh, vido, doAm, doAm1, luongMua, satLo, thoiGianMua, doNghieng, data, sum, result;
+    var _req$body, name, kinh, vido, doAm, doAm_1, luongMua, satLo, thoiGianMua, doNghieng, data, sum, result;
     return _regeneratorRuntime().wrap(function _callee2$(_context2) {
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
           _context2.prev = 0;
-          _req$body = req.body, name = _req$body.name, kinh = _req$body.kinh, vido = _req$body.vido, doAm = _req$body.doAm, doAm1 = _req$body.doAm1, luongMua = _req$body.luongMua, satLo = _req$body.satLo, thoiGianMua = _req$body.thoiGianMua, doNghieng = _req$body.doNghieng;
+          _req$body = req.body, name = _req$body.name, kinh = _req$body.kinh, vido = _req$body.vido, doAm = _req$body.doAm, doAm_1 = _req$body.doAm_1, luongMua = _req$body.luongMua, satLo = _req$body.satLo, thoiGianMua = _req$body.thoiGianMua, doNghieng = _req$body.doNghieng;
           data = new Home({
             name: name,
             kinh: kinh,
             vido: vido,
             doAm: doAm,
-            doAm1: doAm1,
+            doAm_1: doAm_1,
             luongMua: luongMua,
             satLo: satLo,
             thoiGianMua: thoiGianMua,
