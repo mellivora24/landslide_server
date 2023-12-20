@@ -18,7 +18,7 @@ var Schema = new mongoose.Schema({
     type: String,
     required: true
   },
-  doAm1: {
+  doAm_1: {
     type: String,
     required: true
   },
