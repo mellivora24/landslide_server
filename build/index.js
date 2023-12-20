@@ -33,7 +33,7 @@ var connectDB = /*#__PURE__*/function () {
         case 0:
           _context.prev = 0;
           _context.next = 3;
-          return mongoose.connect("mongodb+srv://thanhmakc:P22faBQcJSCLnkWD@cluster0.xesbqs4.mongodb.net/?retryWrites=true&w=majority");
+          return mongoose.connect("mongodb+srv://admin:admin123@cluster0.xesbqs4.mongodb.net/?retryWrites=true&w=majority");
         case 3:
           console.log('MongoDB Connected');
           _context.next = 10;
